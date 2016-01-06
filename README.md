@@ -1,0 +1,2 @@
+# Bachelor_Forprosjekrapport
+Forprosjektrapport for Bacheloroppgave
