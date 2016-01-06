@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper,titlepage]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[norsk]{babel}
+%\usepackage[htt]{hyphenat}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \author{Gruppe19}
@@ -10,7 +11,6 @@
 \tableofcontents
 
 \input{./chapters/presentasjon.tex}
-\input{./chapters/sammendrag.tex}
 \input{./chapters/problemstilling.tex}
 \input{./chapters/mal_og_avgrensninger.tex}
 \input{./chapters/arbeidsmetodikk.tex}
@@ -20,7 +20,7 @@
 \chapter{Noen eksempler på referanser}
 Test av bilbiographi\cite{book:unixprog}.
 Test referanse 2 \cite{book:unixprog2}.
-Teksdlksadjf lka jdsf\footnote{Link til:}
+Teksdlksadjf lka jdsf\footnote{Link til \href{www.vg.no}{Link til VG}}
 
 
 \bibliographystyle{plain}
