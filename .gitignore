@@ -1,3 +1,9 @@
+## Eget
+*.backup
+*.pdf
+*.lol
+*.tks
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
