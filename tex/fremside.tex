@@ -1,0 +1,28 @@
+%\author{Gruppe19}
+%\title{Forprosjektrapport}
+
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic publisher logo
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\titleGM}{\begingroup % Create the command for including the title page in the document
+\hbox{ % Horizontal box
+\hspace*{0.2\textwidth} % Whitespace to the left of the title page
+\rule{1pt}{\textheight} % Vertical line
+\hspace*{0.05\textwidth} % Whitespace between the vertical line and title page text
+\parbox[b]{0.75\textwidth}{ % Paragraph box which restricts text to less than the width of the page
+
+{\noindent\Huge\bfseries Forprosjektrapport}\\[2\baselineskip] % Title
+{\large \href{http://cerveceroscodigo.org/}{\textit{cerveceroscodigo.org}}}\\[4\baselineskip] % Tagline or further description
+{\Large \textsc{Gruppe 19}} % Author name
+
+\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+{
+\includegraphics[scale=0.10, keepaspectratio]{./img/presentasjon/mw_logo.png}
+\noindent \includegraphics[scale=0.05, keepaspectratio]{./img/presentasjon/rb_logo.jpg}}\\[\baselineskip] % Publisher and logo
+}}
+\endgroup}
+
+\pagestyle{empty}
