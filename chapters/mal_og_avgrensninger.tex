@@ -13,3 +13,8 @@ Gruppens konkrete mål er:
 På generell basis ønsker gruppen å leve opp til gruppens egne, høye forventninger. Gruppens medlemmer har hatt gode resultater gjennom hele studiet og Bachelorprosjektet skal være kronen på verket.
 
 \section{Avgrensninger}
+Prosjektets avgrensning ligger i segmentet som retter seg mot kundens medlemmer og å lage en komplett, vertikal funksjonalitet fra database til brukergrensesnitt og brukeropplevelse, slik at man får et produkt som vil fungere for brukeren, og som blir grunnlag for videre utvidelse, ved en senere anledning, eller som videreutvikling av prosjektet om tiden tillater det.
+
+Mer konkret vil avgrensningen være å lage ``Min Side" med pålogging og mulighet for brukerregistrering. Eksakt for mye funksjonalitet man vil få implementert her vil være en del av prosjekteringen som skjer etter forprosjektrapporten er ferdig. Hovedprioritet er at medlemmene skal se hva sitt bidrag går til, hvordan pengene kommer til nytte, se tidslinje og historikk over sitt medlemskap og hvordan man kan verve venner og kjente på en enkel måte, via sosiale medier eller på andre måter.
+
+Medlemsregisteret til Redd Barna skal migreres over fra dagens løsning til et nytt CRM-system i løpet av 2016, og dermed vil prosjektet vårt basere seg på en dump fra databasen til CSV-filer som vi skal importere til ElasticSearch. ElasticSearch tilbyr et API som vil bli benyttet for å hente informasjon fra medlemsdatabasen, mens påloggings- og sikkerhetsfunksjonaliet, session-håndtering, og backend-funksjonalitet for HTML/Javascript vil bli laget i C\#/.NET eller i Node.js. FrontEnd-utvikling vil skje i HTML og AngularJS.
