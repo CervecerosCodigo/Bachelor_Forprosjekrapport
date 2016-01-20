@@ -1,1 +1,6 @@
 \chapter{Problemstilling}
+For at oppgaven med å lage en ``Min side'' skal kunne løses trenger gruppen tilgang til medlemsdata fra Redd Barna.
+
+Redd Barna er nå i en fase hvor de velger seg et nytt CRM-system (Customer relationship management eller Kunderelasjonshåndtering). Dette valget skal være tatt i løpet av Februar, men for å slippe å vente på at dette systemet er oppe og går har gruppen sammen med oppdragsgiver bestemt at det tas en dump av medlemsdata fra deres gamle CRM-system slik at det er et avtalt datasett som gruppen kan forholde seg til. 
+
+Datadumpen studentene får tilgang til vil inneholde medlemsregister, giverhistorikk og kundekommunikasjon. Denne dumpen kommer i CSV-format. Dette vil være utgangspunktet for hvilke data studentene har å jobbe med. Fordi Elasticsearch skal brukes til håndtering av data vil det være nødvendig å lage script som parser dataene til JSON og dytter de inn i Elasticsearch.
